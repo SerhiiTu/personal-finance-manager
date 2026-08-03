@@ -2,7 +2,7 @@ services:
   mysql:
     image: mysql:8.0
     container_name: personal-finance-db
-    restart: always
+    restart: unless-stopped
     environment:
       MYSQL_DATABASE: finance_manager
       MYSQL_USER: finance_user

@@ -4,7 +4,7 @@ from django.db import models
 
 from apps.common.constants.currency import Currency
 from apps.common.models import BaseModel
-from apps.finance.constants.account_type import AccountType
+from apps.finance.constants.account import AccountType
 from apps.users.models import User
 
 
